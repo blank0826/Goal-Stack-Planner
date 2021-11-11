@@ -1,0 +1,96 @@
+Enter the number of stacks in initial stage.
+2
+Enter the blocks in the initial stack (For a different stack give space in between): 
+XY ZW
+Enter the number of stacks in goal stage.
+2
+Enter the blocks in the goal stack (For a different stack give space in between): 
+XZ WY
+
+
+UNSTACK(Y,X)
+
+Block in arm: 
+Y
+-----------CURRENT STATE---------------
+   W  
+X  Z  
+
+
+STACK(Y,W)
+
+Arm Empty
+
+-----------CURRENT STATE---------------
+   Y  
+   W  
+X  Z  
+
+
+UNSTACK(Y,W)
+
+Block in arm: 
+Y
+-----------CURRENT STATE---------------
+   W  
+X  Z  
+
+
+PUTDOWN(Y)
+
+Arm Empty
+
+-----------CURRENT STATE---------------
+   W     
+X  Z  Y  
+
+
+UNSTACK(W,Z)
+
+Block in arm: 
+W
+-----------CURRENT STATE---------------
+X  Z  Y  
+
+
+PUTDOWN(W)
+
+Arm Empty
+
+-----------CURRENT STATE---------------
+X  Z  Y  W  
+
+
+PICKUP(Z)
+
+Block in arm: 
+Z
+-----------CURRENT STATE---------------
+X  Y  W  
+
+
+STACK(Z,X)
+
+Arm Empty
+
+-----------CURRENT STATE---------------
+Z        
+X  Y  W  
+
+
+PICKUP(Y)
+
+Block in arm: 
+Y
+-----------CURRENT STATE---------------
+Z     
+X  W  
+
+
+STACK(Y,W)
+
+Arm Empty
+
+-----------CURRENT STATE---------------
+Z  Y  
+X  W  
