@@ -6,30 +6,34 @@ The code is written through **JAVA**.
 
 ## Objective
 
-### 1. [AlreadyOccupied](https://github.com/blank0826/AI-CheckersGame/blob/master/AlreadyOccupiedException.java)
+### 1. [Operator](https://github.com/blank0826/Goal-Stack-Planner/blob/master/Operator.java)
 ----
-This class gives an exception when the piece is already occupied.<br />
+This class stores the type of operations that need to be performed on the stack to make it progressively reach the goal state.<br/>
+### **<ins>Operations</ins>**
+ **1. S (X, Y)<br/>**
+  Put block X on top of block Y. For this operation, the top of Y must be clear and X should be in the robot’s arm. <br/><br/>
+  **2. US (X, Y) <br/>**
+  Pickup block X from block Y. For this operation, the arm must be empty and the top of X must be clear.<br/><br/>
+  **3. PU (X) <br/>**
+  Pickup X from the table and hold it. For this operation, the arm must be empty and the top of X must be clear.<br/><br/>
+  **4. PD (X) <br/>**
+  Put down X on the table. For this operation, the arm must be holding X before putting it down. <br/><br/>
 
-### 2. [Checkers](https://github.com/blank0826/AI-CheckersGame/blob/master/Checkers.java)
+### **<ins>Member Functions</ins>**
+  **1. ArrayList<Predicate> getPre_C ()**<br/>
+  It sets the predicates to be performed according to the operation.<br/><br/>
+  **2.  ArrayList<Predicate> getInsList ()**<br/>
+  This function inserts new predicates in the current state depending upon the current goal state.<br/><br/>
+  **3.  ArrayList<Predicate> getRemoveList ()**<br/>
+  This removes the old predicates from the current state depending upon the current goal state.<br/><br/>
+
+
+### 2. [Block World Program](https://github.com/blank0826/Goal-Stack-Planner/blob/master/BlockWorldProgram.java)
 ----
 This class initializes the game board. it sets properties for the javaFX UI and adds menu giving the option of Algorithms and Settings.<br /><br />
 **1. <ins>Algorithms:-</ins>** Random and Mini-max Algorithms.<br /><br/>
 **2. <ins>Settings:-</ins>** Reset and Exit.<br />
 
-### 3. [Logic](https://github.com/blank0826/AI-CheckersGame/blob/master/Logic.java)
-----
-This is the main class of the Checkers Game where the whole game takes place updating the board, moving pieces, and making all the algorithm-based decisions.
-
-### **<ins>Member Functions</ins>**
-**1.	Logic (int algoNum)**<br />
-
-Constructor to initialize the board, maintain what functions to be called whenever a piece is moved or <br />
-
-selected, display appropriate messages after each move is played.
-
-**2.	public chooseAlgo(int algo, char[][] game, int depth, String player)**<br />
-
-Function defined so as to switch between the two algorithms.
 
 
 # Local Setup
