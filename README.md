@@ -6,7 +6,7 @@ The code is written through **JAVA**.
 
 ## Objective
 
-### 1. [Operator](https://github.com/blank0826/Goal-Stack-Planner/blob/master/Operator.java)
+### [Operator](https://github.com/blank0826/Goal-Stack-Planner/blob/master/Operator.java)
 ----
 This class stores the type of operations that need to be performed on the stack to make it progressively reach the goal state.<br/>
 ### **<ins>Operations</ins>**
@@ -28,13 +28,21 @@ This class stores the type of operations that need to be performed on the stack 
   This removes the old predicates from the current state depending upon the current goal state.<br/><br/>
 
 
-### 2. [Block World Program](https://github.com/blank0826/Goal-Stack-Planner/blob/master/BlockWorldProgram.java)
+### [Block World Program](https://github.com/blank0826/Goal-Stack-Planner/blob/master/BlockWorldProgram.java)
 ----
-This class initializes the game board. it sets properties for the javaFX UI and adds menu giving the option of Algorithms and Settings.<br /><br />
-**1. <ins>Algorithms:-</ins>** Random and Mini-max Algorithms.<br /><br/>
-**2. <ins>Settings:-</ins>** Reset and Exit.<br />
-
-
+  **<ins>This file contains 4 classes:</ins>** <br /><br />
+  **1. Block**<br/>
+  This class is being used to signify a block. It stores the notation of a particular block.<br/><br/>
+  
+  **2. Predicate**<br/>
+  This class stores and sets the type of predicate on a single block or on two blocks.<br/><br/>
+  
+  **3. Goal**<br/>
+  This class is being used to store the final goal desired by the user. It stores all the elements using an arraylist and keeps the operation to be done.<br/><br/>
+  
+  **4. BlockWorldProgram**<br/>
+  This is the main class of the application. It contains the main function and a static function to create stacks by providing appropriate predicates. It also contains two array   lists, which are being used to store the initial and the goal state. <br/><br/>
+  The main function keeps in check all the intermediate stages, it checks what is the state of the current goal and set predicates for it accordingly. Then operator class is       called from which we get the operations that need to be performed in order to make our current stage reach the current goal state. This process of simultaneous insertion,       removal of predicates, and operations is performed until we reach the goal state.<br/><br/>
 
 # Local Setup
 
@@ -46,7 +54,7 @@ An IDE that supports Java.
 3. Build the Project.<br />
 4. Run the [BlockWorldProgram](https://github.com/blank0826/Goal-Stack-Planner/blob/master/BlockWorldProgram.java) file.<br />
 
-# Screenshots of the Gameplay
+# Screenshots
 <img src="https://user-images.githubusercontent.com/33955028/141425506-8601c350-959c-4e2f-8e59-efdac7d18b87.png" width="600" height="525">
 <img src="https://user-images.githubusercontent.com/33955028/141425549-3ab7c648-cf70-43b5-be1e-e1533cffff84.png" width="500" height="525">
 <img src="https://user-images.githubusercontent.com/33955028/141425600-a3cbab38-f1c5-4f2e-b890-e3838464e2c8.png" width="450" height="300">
