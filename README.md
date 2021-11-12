@@ -68,6 +68,10 @@ An IDE that supports Java.
 4. Run the [BlockWorldProgram](https://github.com/blank0826/Goal-Stack-Planner/blob/master/BlockWorldProgram.java) file.<br />
 
 # Screenshots
+**<ins>TestCase**</ins><br/><br/>
+<img src="https://user-images.githubusercontent.com/33955028/141432689-60a3673e-47cc-4476-98e4-bcfd705910c6.png" width="700" height="250">
+
+**<ins>Output**</ins><br/><br/>
 <img src="https://user-images.githubusercontent.com/33955028/141425506-8601c350-959c-4e2f-8e59-efdac7d18b87.png" width="600" height="525">
 <img src="https://user-images.githubusercontent.com/33955028/141425549-3ab7c648-cf70-43b5-be1e-e1533cffff84.png" width="500" height="525">
 <img src="https://user-images.githubusercontent.com/33955028/141425600-a3cbab38-f1c5-4f2e-b890-e3838464e2c8.png" width="450" height="300">
