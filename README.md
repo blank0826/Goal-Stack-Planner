@@ -37,6 +37,19 @@ This class stores the type of operations that need to be performed on the stack 
   **2. Predicate**<br/>
   This class stores and sets the type of predicate on a single block or on two blocks.<br/><br/>
   
+  **<ins>Predicates</ins>**<br/>
+   **1.	ON (X, Y)**<br/>
+    Block X is on block Y.<br/><br/>
+   **2.	ONT (X)**<br/>
+    Block X is on the table.<br/><br/>
+   **3.	CL (X)**<br/>
+    Top of block X is clear.<br/><br/>
+   **4.	HOLD (X)**<br/>
+    The robot arm is holding block X.<br/><br/>
+   **5.	AE**<br/>
+    Robot arm is empty.<br/><br/>
+
+  
   **3. Goal**<br/>
   This class is being used to store the final goal desired by the user. It stores all the elements using an arraylist and keeps the operation to be done.<br/><br/>
   
