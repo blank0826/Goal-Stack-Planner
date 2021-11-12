@@ -72,7 +72,7 @@ An IDE that supports Java.
 <img src="https://user-images.githubusercontent.com/33955028/141425549-3ab7c648-cf70-43b5-be1e-e1533cffff84.png" width="500" height="525">
 <img src="https://user-images.githubusercontent.com/33955028/141425600-a3cbab38-f1c5-4f2e-b890-e3838464e2c8.png" width="450" height="300">
 
-__To check all the outputs check all the outfiles files in the directory.__
+___To check other displays see all the output files in the directory.___
 
   
 # Contact
