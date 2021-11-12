@@ -31,13 +31,13 @@ This class stores the type of operations that need to be performed on the stack 
 ### [Block World Program](https://github.com/blank0826/Goal-Stack-Planner/blob/master/BlockWorldProgram.java)
 ----
   **<ins>This file contains 4 classes:</ins>** <br /><br />
-  **1. Block**<br/>
+  **<ins>1. Block**</ins><br/>
   This class is being used to signify a block. It stores the notation of a particular block.<br/><br/>
   
-  **2. Predicate**<br/>
+  **<ins>2. Predicate**</ins><br/>
   This class stores and sets the type of predicate on a single block or on two blocks.<br/><br/>
   
-  **<ins>Predicates</ins>**<br/>
+  #### **Predicates**<br/>
    **1.	ON (X, Y)**<br/>
     Block X is on block Y.<br/><br/>
    **2.	ONT (X)**<br/>
@@ -50,10 +50,10 @@ This class stores the type of operations that need to be performed on the stack 
     Robot arm is empty.<br/><br/>
 
   
-  **3. Goal**<br/>
+  **<ins>3. Goal**</ins><br/>
   This class is being used to store the final goal desired by the user. It stores all the elements using an arraylist and keeps the operation to be done.<br/><br/>
   
-  **4. BlockWorldProgram**<br/>
+  **<ins>4. BlockWorldProgram**</ins><br/>
   This is the main class of the application. It contains the main function and a static function to create stacks by providing appropriate predicates. It also contains two array   lists, which are being used to store the initial and the goal state. <br/><br/>
   The main function keeps in check all the intermediate stages, it checks what is the state of the current goal and set predicates for it accordingly. Then operator class is       called from which we get the operations that need to be performed in order to make our current stage reach the current goal state. This process of simultaneous insertion,       removal of predicates, and operations is performed until we reach the goal state.<br/><br/>
 
