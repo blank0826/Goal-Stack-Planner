@@ -35,7 +35,7 @@ This class stores the type of operations that need to be performed on the stack 
   This class is being used to signify a block. It stores the notation of a particular block.<br/><br/>
   
   **<ins>2. Predicate**</ins><br/>
-  This class stores and sets the type of predicate on a single block or on two blocks.<br/><br/>
+  This class stores and sets the type of predicate on a single block or on two blocks.<br/>
   
   #### **Predicates**<br/>
    **1.	ON (X, Y)**<br/>
